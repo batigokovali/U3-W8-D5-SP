@@ -48,7 +48,7 @@ class MyMovies extends Component {
           <Spinner animation="border" variant="success" />
         )}
         {this.state.isError && (
-          <Alert variant="danger">Aww snap, we got an error!😨</Alert>
+          <Alert variant="danger">ERROR! LEAVE THE SHIP IMMEDIATELY!</Alert>
         )}
         <div className="d-flex mt-3 mx-5">
             <h2 className="mx-3 text-white mr-auto">{this.props.search}</h2>
