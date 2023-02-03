@@ -11,6 +11,8 @@ function App() {
       <MyHeader></MyHeader>
       <MyMovies search="Lord of the rings"></MyMovies>
       <MyMovies search="Star Wars"></MyMovies>
+      <MyMovies search="Pirates of the Caribbean"></MyMovies>
+      <MyMovies search="Underworld"></MyMovies>
       <MyMovies search="Zoolander"></MyMovies>
     </div>
     
