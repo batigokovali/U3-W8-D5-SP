@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(26, 26, 26) !important;
+}
+
+#netflix-navbar-logo {
+  height: 40px;
+}
+
+.image-fix {
+  height: 10rem;
+  width: 7.5rem;
+  object-fit: cover;
+}
