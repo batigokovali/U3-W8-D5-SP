@@ -46,7 +46,23 @@ body {
 }
 
 .image-fix {
-  height: 10rem;
-  width: 7.5rem;
+  min-height: 10rem;
+  min-width: 7.5rem;
+  max-height: 12rem;
+  max-width: 10rem;
   object-fit: cover;
+}
+
+.search-icon {
+  color: white;
+}
+
+.avatar-img {
+  height: 40px;
+  width: 40px;
+}
+
+#dropdown {
+  background-color: transparent;
+  border: none;
 }
