@@ -1,11 +1,11 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from 'react-bootstrap/esm/Navbar';
+import MyNavbar from './components/MyNavbar';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar/>
+      <MyNavbar></MyNavbar>
     </div>
     
   )
