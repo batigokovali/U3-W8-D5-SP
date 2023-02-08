@@ -66,3 +66,19 @@ body {
   background-color: transparent;
   border: none;
 }
+
+.details-image {
+  height: 300px;
+  object-fit: contain;
+  transition: box-shadow 500ms, scale 500ms;
+}
+
+.details-image:hover {
+  -webkit-box-shadow: 5px 5px 15px 15px rgba(169, 255, 236, 0.51);
+  box-shadow: 5px 5px 25px 15px rgba(169, 255, 236, 0.51);
+  scale: 1.1;
+}
+
+.card-text {
+  color: white;
+}
